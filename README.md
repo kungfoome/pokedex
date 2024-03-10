@@ -1,4 +1,51 @@
-# What is this?
+## Building and Running
+
+### Locally
+
+To run this application locally, follow these steps:
+
+1. Clone the repository and navigate to its directory.
+2. Build the application:
+
+    ```shell
+    go build ./cmd/pokedexcli; ./pokedexcli.exe 
+    ```
+
+    or 
+
+    ```shell
+    go run ./cmd/pokedexcli
+    ```
+
+3. Run the application:
+
+    ```shell
+    ./pokedexcli
+    ```
+
+# Commands
+
+	Usage:
+
+        > map: Returns a list of the next 20 locations
+        > mapb: Returns a list of the previous 20 locations
+        > explore: Returns a list of Pokemon based on the location provided
+        > catch: Tries to catch the pokemon passed in as a parameter
+        > pokedex: List all the pokemon that were captured and added to the pokedex
+        > inspect: Inspect a pokemon that has been caught inside the pokedex
+        > help: Displays a help message
+        > exit: Exit the Pokedex
+
+	Examples:
+
+		> map
+        > mapb
+        > explore canalave-city-area
+        > catch pikachu
+        > pokedex
+        > inspect pikachu
+
+# What Is This?
 
 This is a project from the boot.dev golang series. This is a REPL built in golang that uses the PokeAPI to gather information. We created a pokedex to store pokemon and it's information in. We can look up locations, catch pokemon, store pokemon in a pokedex, and view information about pokemon that were caught. 
 
