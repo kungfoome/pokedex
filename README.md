@@ -1,6 +1,8 @@
-## Building and Running
+# What Is This?
 
-### Locally
+This is a project from the boot.dev golang series. This is a REPL built in golang that uses the PokeAPI to gather information. We created a pokedex to store pokemon and it's information in. We can look up locations, catch pokemon, store pokemon in a pokedex, and view information about pokemon that were caught. 
+
+# Building and Running
 
 To run this application locally, follow these steps:
 
@@ -44,10 +46,6 @@ To run this application locally, follow these steps:
         > catch pikachu
         > pokedex
         > inspect pikachu
-
-# What Is This?
-
-This is a project from the boot.dev golang series. This is a REPL built in golang that uses the PokeAPI to gather information. We created a pokedex to store pokemon and it's information in. We can look up locations, catch pokemon, store pokemon in a pokedex, and view information about pokemon that were caught. 
 
 # Goals
 - Learn how to parse JSON in Go
